@@ -1,4 +1,10 @@
-# 🧪 Todo App QA Automation Framework
+# 🧪 Cypress Todo App QA Automation 
+
+- Automation Demo link: https://drive.google.com/file/d/1CtKDgbi5vAVzq9iaiZb6JKOU2Y8UL2mr/view
+
+- Testcases link: https://docs.google.com/spreadsheets/d/1mWeVpFuHHYwJSYqP8dlxhJjHF2LDhh2c/edit?gid=1927106797#gid=1927106797
+  
+- Mochawesome report link: https://cypress-to-do-app-automation.vercel.app/ 
 
 ## 📌 Overview
 
