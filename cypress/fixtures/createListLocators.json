@@ -1,0 +1,17 @@
+{
+  "loginPage": {
+    "email": "#email",
+    "password": "#password",
+    "loginButton": "button.btn"
+  },
+  "dashboardPage": {
+    "logo": ".logo",
+    "listNamesContainer": ".list-names-container",
+    "createNewListButton": "button.btn"
+  },
+  "createListModal": {
+    "modal": "mat-dialog-container",
+    "listNameInput": "input",
+    "closeIcon": ".close-icon"
+  }
+}

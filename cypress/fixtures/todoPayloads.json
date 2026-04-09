@@ -1,0 +1,24 @@
+{
+  "task": {
+    "list": "Study",
+    "priority": "Low",
+    "date": "2026-03-25T19:47"
+  },
+  "updatedTask": {
+    "task": "Updated Task via PUT",
+    "list": "Study",
+    "priority": "Medium",
+    "date": "2026-03-25T16:13",
+    "name": "Mirage Shrestha",
+    "avatar": "https://avatars.githubusercontent.com/u/77367432"
+  },
+  "patchTask": {
+    "task": "Updated Task via PATCH"
+  },
+  "list": {
+    "list": "API List"
+  },
+  "updatedList": {
+    "list": "Updated API List"
+  }
+}

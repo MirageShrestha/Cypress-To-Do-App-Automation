@@ -1,0 +1,29 @@
+{
+  "loginPage": {
+    "email": "#email",
+    "password": "#password",
+    "loginButton": "button.btn",
+    "createAccount": "span.create-account"
+  },
+  "signupPage": {
+    "name": "#username",
+    "maleRadio": "#gender1",
+    "femaleRadio": "#gender2",
+    "otherRadio": "#gender3",
+    "dob": "#dob",
+    "phone": "#phone",
+    "email": "#email",
+    "nextButton": "button.btn",
+    "loginLink": "a"
+  },
+  "setPasswordPage": {
+    "password": "#password",
+    "confirmPassword": "#confirmpassword",
+    "setPasswordButton": "button.btn"
+  },
+  "dashboardPage": {
+    "dashboardRoot": "app-dashboard",
+    "logout": ".logout",
+    "logo": ".logo"
+  }
+}

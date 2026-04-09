@@ -1,0 +1,14 @@
+{
+  "validList": {
+    "name": "Health"
+  },
+  "duplicateList": {
+    "name": "Study"
+  },
+  "specialCharList": {
+    "name": "Work & Play!"
+  },
+  "cancelList": {
+    "name": "Finance"
+  }
+}

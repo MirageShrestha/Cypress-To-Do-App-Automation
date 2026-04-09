@@ -1,0 +1,12 @@
+{
+  "validUser": {
+    "name": "Mirage Shrestha",
+    "dob": "2001-05-15",
+    "phone": "9812345678",
+    "password": "Mirage@123",
+    "email": "mirage.shrestha@bajratechnologies.com"
+  },
+  "invalidUser": {
+    "invalidEmail": "notanemail"
+  }
+}

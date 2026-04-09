@@ -1,0 +1,28 @@
+{
+  "name": "to-do-app-assignment",
+  "version": "1.0.0",
+  "description": "Cypress automation for To Do App",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "report:merge": "mkdir -p cypress/reports/merged && npx mochawesome-merge cypress/reports/mochawesome/.jsons/*.json > cypress/reports/merged/report.json",
+    "report:html": "npx marge cypress/reports/merged/report.json -f final-report -o cypress/reports/final",
+    "report:generate": "npm run report:merge && npm run report:html",
+    "test": "npm run cy:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.bajratechnologies.com:j-26-02/j-26-02-qa/mirage-shrestha/to-do-app-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.13.0",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.3.2"
+  }
+}

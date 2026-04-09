@@ -1,0 +1,17 @@
+{
+  "loginPage": {
+    "title": ".container-login-header",
+    "pageHeading": ".container-login-info",
+    "email": "#email",
+    "password": "#password",
+    "loginButton": "button.btn",
+    "forgotPassword": "span.forgot-password",
+    "createAccount": "span.create-account",
+    "emailValidIcon": ".right-icon-success",
+    "emailInvalidMessage": ".error-message",
+    "eyeIcon": ".right-icon"
+  },
+  "dashboardPage": {
+    "dashboardRoot": "app-dashboard"
+  }
+}

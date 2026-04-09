@@ -1,0 +1,10 @@
+{
+  "loginPage": {
+    "email": "#email",
+    "password": "#password",
+    "loginButton": "button.btn"
+  },
+  "dashboardPage": {
+    "logo": ".logo"
+  }
+}

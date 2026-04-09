@@ -1,0 +1,26 @@
+{
+  "loginPage": {
+    "email": "#email",
+    "password": "#password",
+    "loginButton": "button.btn"
+  },
+  "dashboardPage": {
+    "logo": ".logo",
+    "dateText": ".date-date",
+    "overviewHeader": ".header-text",
+    "overviewCards": ".data",
+    "overviewCardTitle": ".data-header",
+    "overviewCardCount": ".data-count",
+    "todayTasksHeader": ".task-header",
+    "todayTasksContainer": ".list-tasks",
+    "listNamesHeader": ".list-header",
+    "listNamesContainer": ".list-names-container",
+    "avatar": ".profile-icon",
+    "logout": ".logout"
+  },
+  "logoutModal": {
+    "heading": "h1",
+    "confirmButton": "button.btn",
+    "cancelButton": "button.btn-outline"
+  }
+}

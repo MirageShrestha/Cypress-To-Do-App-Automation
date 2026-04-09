@@ -1,0 +1,43 @@
+stages:
+  - test
+  - deploy
+
+cypress_tests:
+  stage: test
+  image:
+    name: cypress/included:15.11.0
+    entrypoint: [""]
+  script:
+    - npm ci
+    - npx cypress run --record --key $CYPRESS_RECORD_KEY --env EMAIL=$EMAIL,PASSWORD=$PASSWORD || true
+    - npm run report:generate || true
+    - echo "=== REPORT FILES ==="
+    - find cypress/reports -type f || true
+  allow_failure: true
+  retry: 1
+  artifacts:
+    when: always
+    paths:
+      - cypress/videos
+      - cypress/screenshots
+      - cypress/reports/
+  tags:
+    - shared-docker-2
+
+pages:
+  stage: deploy
+  image:
+    name: cypress/included:15.11.0
+    entrypoint: [""]
+  script:
+    - mkdir .public
+    - cp -r cypress/reports/mochawesome/* .public
+    - mv .public public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
+      when: on_success
+  tags:
+    - shared-docker-2

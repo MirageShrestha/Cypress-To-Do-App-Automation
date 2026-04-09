@@ -1,0 +1,10 @@
+{
+  "validUser": {
+    "email": "mirage.shrestha@bajratechnologies.com",
+    "password": "Mirage@123"
+  },
+  "invalidUser": {
+    "invalidEmailFormat": "mirage.shrestha@bajratechnologies",
+    "wrongPassword": "WrongPass@123"
+  }
+}
